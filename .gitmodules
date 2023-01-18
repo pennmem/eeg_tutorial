@@ -1,0 +1,3 @@
+[submodule "eegsim"]
+	path = eegsim
+	url = https://github.com/pennmem/eegsim.git
