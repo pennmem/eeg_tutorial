@@ -12,8 +12,8 @@ import mne
 from eegsim import EEGGen
 
 # from resample.bootstrap import bootstrap
-# from sklearn.preprocessing import StandardScaler
-# from sklearn.linear_model import LinearRegression
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LinearRegression
 
 cell_plot_width = 40
 fig_height = 10
@@ -43,10 +43,10 @@ def plot_time(time, eeg, fig=None, display_notebook=False):
         plt.plot(time, eeg[ev, 0])
         plt.xticks(fontsize=35)
         plt.yticks(fontsize=35)
-        if np.ceil(ev / n_cols) == np.ceil(n_rows / 2) - 1 and (ev % n_cols == 0):
-            plt.ylabel('Voltage (uV)', fontsize=40)
-        if (np.ceil(ev % n_cols) == (np.ceil(n_cols / 2) - 1) and (np.ceil(ev / n_cols) == n_rows)) or n_events <= n_cols:
-            plt.xlabel('Time (s)', fontsize=40)
+#         if ev % n_cols == 0:
+        plt.ylabel('Voltage (uV)', fontsize=40)
+#         if (np.ceil(ev / n_cols + 0.1) >= n_rows) or n_events <= n_cols:
+        plt.xlabel('Time (s)', fontsize=40)
     if display_notebook:
 #         import pdb; pdb.set_trace()
 #         plt.plot()
