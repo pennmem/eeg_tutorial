@@ -10,6 +10,9 @@ Types of EEG signal components covered:
 * Common signs of artifacts
 * Recommendations for troubleshooting noisy recordings
 
+We recommend walking through all sections of the notebook, making sure to take
+the line noise recognition quiz at the end of the document until you receive a passing score.
+
 # Initial Setup
 
 To start working with any materials contained or linked here, you'll need to
