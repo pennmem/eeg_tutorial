@@ -12,8 +12,8 @@ import mne
 from eegsim import EEGGen
 
 # from resample.bootstrap import bootstrap
-from sklearn.preprocessing import StandardScaler
-from sklearn.linear_model import LinearRegression
+# from sklearn.preprocessing import StandardScaler
+# from sklearn.linear_model import LinearRegression
 
 cell_plot_width = 40
 fig_height = 10
