@@ -15,11 +15,10 @@ Types of EEG signal components covered:
 To start working with any materials contained or linked here, you'll need to
 set up tools for writing and running Python code. If you are affiliated with
 the Computational Memory Lab and have access to Rhino, our computing cluster,
-you can complete just the "Getting started on Rhino section". Otherwise, you
+you can complete the "Getting started on Rhino section". Otherwise, you
 can follow the instructions in the "Getting started on your computer" 
 section to set up python on your own computer.
 
-<!-- 
 ## Command line access
 
 All subsequent stages of these instructions will assume familiarity with and access
@@ -32,7 +31,6 @@ using Cygwin <https://www.cygwin.com/> or the Ubuntu subsystem
 <https://docs.microsoft.com/en-us/windows/wsl/install-win10>.
 
 General Introduction: https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
- -->
 
 ## Getting started on Rhino
 
@@ -75,8 +73,13 @@ Working on rhino gives you access to a computing environment that already has th
 
 In JupyterLab, open any notebook and then go to Kernel -> Change Kernel... and then select "workshop" from the dropdown! Make sure you use this kernel whenever you're opening a notebook. 
 
-You should be all set! Next time you log in to your JupyterLab account,
-choose the option to launch a new notebook with "workshop" as your Python environment.
+You should be all set! Next time you log in to your JupyterLab account, choose the option to launch a new notebook with "workshop" as your Python environment.
+
+## Using Jupyter Notebooks
+
+A Jupyter notebook is a file which can include both executable code and formatted (Markdown) text in isolated blocks or "cells". These code cells can be executed one by one, which is convenient for prototyping code as well as for displaying results near the code that produced those results. If you'd like a tutorial on Jupyter notebooks (in the Jupyter Lab interface administered from rhino), you can access one here:
+<https://jupyter.org/try-jupyter/lab/?path=notebooks%2FIntro.ipynb>. Once the Jupyter Lab interface loads, click the "Try the Notebook Tour" option in the bottom right corner of the webpage.
 
 ## Getting started on your computer
-To complete this tutorial on your local machine, you will need to install a Python environment with the following dependencies: numpy, pandas, matplotlib, mne (v0.18.0), scipy, ipython, and jupyter. These packages can all be installed through conda and pip. Then run 'jupyter notebook' in the directory containing this notebook file, click the link output to the command line to open up a Jupyter file explorer interface in your browser, and open up this notebook to begin the tutorial.
+To complete this tutorial on your local machine, you will need to install a Python environment with the following dependencies: numpy, pandas, matplotlib, mne (v0.18.0), scipy, ipython, and jupyter. These packages can all be installed through conda and pip. Then run 'jupyter notebook' in the directory containing this notebook file, click the link output to the command line to open up a Jupyter file explorer interface in your browser, and open up this notebook to begin the tutorial. If you'd like a tutorial in the Jupyter Notebook interface (which appears slightly different from the Jupyter Lab interface, but functions similarly for actually running noteboooks), see here: <https://jupyter.org/try-jupyter/retro/notebooks/?path=notebooks/Intro.ipynb> and click the "Try the Notebook Tour" option in the bottom right corner of the webpage.
+
