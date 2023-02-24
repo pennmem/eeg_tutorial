@@ -36,7 +36,7 @@ General Introduction: https://ubuntu.com/tutorials/command-line-for-beginners#1-
 
 ## Getting started on Rhino
 
-If you have been provided with an account on the Rhino computing cluster, these instructions will help you access and setup your account to the point where you can follow these workshop notes and perform analyses. If you are using another system, skip ahead to Setting up JupyterLab.
+If you have been provided with an account on the Rhino computing cluster, these instructions will help you access and setup your account to the point where you can follow these workshop notes and perform analyses. If you are using another system, skip ahead to the section "Getting started on your computer".
 
 ### Setting up your Rhino2 Account
 
