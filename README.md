@@ -79,7 +79,7 @@ followed by entering your rhino password. In your web browser, navigate to:
 and you should see the JupyterLab interface pop up!  Note that the "s" on https is critical for this to work.  Your browser might warn about this being an insecure connection or invalid certificate, given that 127.0.0.1 (direct to the ssh tunnel on your own computer) is not rhino.  Override this warning and connect anyway, because we are using ssh to provide better security here.  If the connection still fails, go back and make sure that your ssh tunnel was correctly created.
 
 ## Downloading the Tutorial
-Navigate in your terminal to the directory where you'd like to download the tutorial. Run the following commands:
+Navigate in your terminal on Rhino (or on your local machine if you're not using Rhino) to the directory where you'd like to download the tutorial. Run the following commands:
 
     git clone git@github.com:pennmem/eeg_tutorial.git
     cd eeg_tutorial
@@ -91,7 +91,7 @@ to download the tutorial repository in the directory in which you ran the 'git c
 ## Setting up your tutorial environment (Rhino)
 Working on rhino gives you access to a computing environment that already has the right software installed to complete the entire tutorial.
 
-In JupyterLab, open any notebook (to open up the notebook for this tutorial, see the section on "Setting up the Tutorial" below) and then go to Kernel -> Change Kernel... and then select "workshop" from the dropdown! Make sure you use this kernel whenever you're opening a notebook. 
+In JupyterLab, open the notebook file eeg_tutorial.ipynb in the file explorer on the left side of the JupyterLab interface and then go to Kernel -> Change Kernel... and then select "workshop" from the dropdown! Make sure you use this kernel whenever you're opening a notebook. 
 
 You should be all set! Next time you log in to your JupyterLab account, choose the option to launch a new notebook with "workshop" as your Python environment.
 
